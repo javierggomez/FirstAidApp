@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/headers.css">
+    <link rel="stylesheet" type="text/css" href="css/buttons.css">
+    <link rel="stylesheet" type="text/css" href="css/lists.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"/>
+    <script type="text/javascript" src="js/webapp.js"></script>
+    <script type="text/javascript" src="js/offline.js"></script>
+    <script src="http://maps.google.com/maps/api/js?v=3.exp&sensor=false&libraries=geometry"></script>
+    <script type="text/javascript" src="js/constants.js"></script>
+    <script type="text/javascript" src="js/remove-hospital.js"/></script>
+    <title>First Aid App</title>
+</head>
+
+<body>
+
+
+    <div id="main">
+
+        <section data-type="list">
+            <header>Eliminar un hospital</header>
+                <ul id="hospitals-list"></ul>
+        </section>
+
+        
+    </div>
+
+    <footer>
+        <li><button id="back" onclick="history.back()">Atrás</button></li>
+        <div role="toolbar">
+            <ul>
+                <li><button id="back" onclick="history.back()">Atrás</button></li>
+                <li><button id="reload" class="update">Update</button></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/headers.css">
+    <link rel="stylesheet" type="text/css" href="css/buttons.css">
+    <link rel="stylesheet" type="text/css" href="css/toolbars.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"/>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/webapp.js"></script>
+    <script type="text/javascript" src="js/offline.js"></script>
+    <script type="text/javascript" src="js/constants.js"></script>
+    <title>First Aid App</title>
+</head>
+
+<body>
+
+    <section role="region">
+        <header>
+            <div id="online-status" title="Online"></div>
+            <menu type="toolbar">
+                <button id="install"><span class="icon icon-add">add</span></button>
+            </menu>
+            <h1>
+                First Aid App
+            </h1>
+        </header>
+    </section>
+
+
+    <div id="main">
+
+       
+
+        <button id="sos-call">Llamada de emergencia</button>
+
+        <button id="hospitals">Hospitales cercanos</button>
+
+        <button id="first-aid-guide">Guía de primeros auxilios</button>
+
+        
+    </div>
+     <ul>
+        <li><button id="add-hospital">Añadir un hospital</button></li>
+        <li><button id="remove-hospital">Eliminar un hospital</button></li>
+    </ul>
+
+    <footer>
+
+        <div role="toolbar">
+            <ul>
+                <li><button id="reload" class="update">Update</button></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>

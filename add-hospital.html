@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/headers.css">
+    <link rel="stylesheet" type="text/css" href="css/buttons.css">
+    <link rel="stylesheet" type="text/css" href="css/lists.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"/>
+    <script type="text/javascript" src="js/webapp.js"></script>
+    <script type="text/javascript" src="js/offline.js"></script>
+    <script src="http://maps.google.com/maps/api/js?v=3.exp&sensor=false&libraries=geometry"></script>
+    <script type="text/javascript" src="js/constants.js"></script>
+    <script type="text/javascript" src="js/add-hospital.js"></script>
+    <title>First Aid App</title>
+</head>
+
+<body>
+
+
+    <div id="main">
+
+            <section><header>Añadir un hospital</header>
+            <p>Nombre:</p>
+            <input type="text" id="hospital-name"/>
+            <p>Latitud:</p>
+            <input type="text" id="hospital-lat"/>
+            <p>Longitud:</p>
+            <input type="text" id="hospital-lon"/>
+            <p>Dirección:</p>
+            <input type="text" id="hospital-address"/>
+            <p>Página web:</p>
+            <input type="text" id="hospital-web"/>
+        </section>
+
+        
+    </div>
+    <ul>
+        <li><button id="button-add-hospital" >Aceptar</button></li>
+        <li><button id="back" onclick="history.back()">Cancelar</button></li>
+    </ul>
+
+    
+
+</body>
+</html>
